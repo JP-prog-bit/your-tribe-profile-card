@@ -3,9 +3,12 @@ flex-direction: row;}
 img{width: 30%;}
 p{margin: 0;}
 h1{margin: 0 0 2px 0;}
+/* mathijs heeft deze code voor mij geschreven, 
+ik begrijp het stukje animation en de waardes die 
+bij translateX staan  */
 @keyframes slider {
-  0% {transform: translateX(-100vw);}
-  100% {transform: translateX(100vw);}
+  0% {transform: translateX(100vw);}
+  100% {transform: translateX(-100vw);}
 }
 h2{
   animation: slider 8s infinite ;
